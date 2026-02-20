@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>AURA</h1>
+        <p>Luxury scents that define your presence</p>
+    </header>
+
+    <main>
+        <nav>
+            <button type="button" class="btn filter-btn" data-filter="all">All</button>
+            <button type="button" class="btn filter-btn" data-filter="floral">Floral</button>
+            <button type="button" class="btn filter-btn" data-filter="sweet">Sweet</button>
+            <button type="button" class="btn filter-btn" data-filter="woody">Woody</button>
+        </nav>
+
+        <section>
+            <div class="perfume-gallery">
+
+                <div class="card" data-category="floral" data-strength="Soft">
+                    <div class="price-tag">1200 EGP</div>
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601"
+                        alt="Rose Elixir">
+
+                    <div class="card-content">
+                        <div class="text">
+                            <h3>Rose Elixir</h3>
+                            <p class="p-type">Floral</p>
+                        </div>
+                        <button class="explore-btn">Explore Scent</button>
+                    </div>
+                </div>
+
+                <div class="card" data-category="sweet" data-strength="Medium">
+                    <div class="price-tag">950 EGP</div>
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539"
+                        alt="Rose Elixir">
+
+                    <div class="card-content">
+                        <div class="text">
+                            <h3>Vanilla Noir</h3>
+                            <p class="p-type">Sweet</p>
+                        </div>
+                        <button class="explore-btn">Explore Scent</button>
+                    </div>
+                </div>
+
+                <div class="card" data-category="woody" data-strength="Strong">
+                    <div class="price-tag">1800 EGP</div>
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de"
+                        alt="Rose Elixir">
+
+                    <div class="card-content">
+                        <div class="text">
+                            <h3>Oud Royal</h3>
+                            <p class="p-type">Woody</p>
+                        </div>
+                        <button class="explore-btn">Explore Scent</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="main.js"></script>
+ 
+
+</body>
+</html>
